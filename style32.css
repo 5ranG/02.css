@@ -1,0 +1,21 @@
+img{
+    display: none;
+}
+
+input:checked+img{
+    display: block;
+}
+
+#checkboxID2{
+    display: none;
+}
+
+.lb1{
+    width: 20px;
+    height: 20px;
+    border: 2px solid grey;
+}
+
+#checkboxID2:checked+label>.lb1{
+    background-color: gray;
+}

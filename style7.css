@@ -1,0 +1,18 @@
+.imgClass{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background-image: url(image/7인SD.png);
+    background-repeat: no-repeat; /*이미지 바둑판배열 반복 없앰*/
+    background-size: contain; /*width height 사이즈 맞게 조절, 커버가 사이즈 딱 맞게 만듬. 콘테인이 비율조절해서 사이즈 딱맞게*/
+    background-position: center;        
+    visibility: hidden; /*눈켜짐(부모의 영향을 받는 상태)*/
+}
+
+.child{
+    width:50px;
+    height: 50px;
+    background-color: aqua;
+    visibility: visible; /*눈켜짐(부모의 영향을 받지 않겠어! 상태)*/
+}
+

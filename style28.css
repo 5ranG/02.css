@@ -1,0 +1,42 @@
+div{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    
+    animation-name: move-animation, color-animation, opacity-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes move-animation{
+    from{
+        left: 0;
+    }
+    to{
+        left: 300px;
+    }
+}
+
+@keyframes color-animation{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+@keyframes opacity-animation{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+

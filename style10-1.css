@@ -1,0 +1,34 @@
+div{
+    border: 1px solid black;
+}
+
+.class1{
+    display: none;
+}
+
+#id1:hover .class1{
+    display: block;
+}
+
+/*
+#id1:hover+.class1{
+    display: block;
+}
+#id1:hover+.class1+.class1{
+    display: block;
+}
+#id1:hover+.class1+.class1+.class1{
+    display: block;
+}
+*/
+
+
+/*
+#id1:hover class1{}
+#id1:hover(띄어쓰기:내부의모든요소탐색)class1을 선택
+이게되는거야
+id1안의 class1인거고
+hover는 항상이 아니라
+마우스 올라갔을대만
+이라고 조건걸어준거라고 생각
+*/

@@ -1,0 +1,7 @@
+.cursors span{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #d2f4ff;
+    border: 2px solid #09c;
+}

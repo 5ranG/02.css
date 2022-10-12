@@ -1,0 +1,34 @@
+div{
+    width: 100px;
+    height: 100px;
+    font: bold 1em/100px "san-serif";
+    text-align: center;
+    background-color: red;
+    color: white;
+    
+    margin-bottom: 10px;
+    position: relative;
+    animation: myAnimation 2s linear 2s;
+}
+
+div:nth-of-type(1){
+    animation-fill-mode: none;
+}
+
+div:nth-of-type(2){
+    animation-fill-mode: forwards;
+}
+
+div:nth-of-type(3){
+    animation-fill-mode: backwards;
+}
+
+div:nth-of-type(4){
+    animation-fill-mode: both;
+}
+
+
+@keyframes myAnimation{
+    0% {left: 0px; background-color: yellow;}
+    100% {left: 200px; background-color: blue;}
+}

@@ -1,0 +1,33 @@
+*{
+    padding: 0px; margin: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: cadetblue;
+    color:white;
+    padding: 20px;
+    font-size: 15px;
+    min-height: 150px; min-width: 150px;
+}
+
+/*현재 웹페이지 창이 600px보다 크면 실행되는 부분*/
+@media(min-width:600px){
+    #id1{
+        padding: 15px;
+        font-size: 20px;
+        color: black;
+    }
+}
+
+@media(min-width:800px){
+    #id1{
+        padding: 10px;
+        font-size: 25px;
+        color: red;
+    }
+}
+
+
+
+/*유동형 패턴*/

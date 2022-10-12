@@ -1,0 +1,14 @@
+
+img{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid red;
+    width: 300px;
+}
+
+.float_container{
+    width: 400px;
+    height: 500px;
+    border: 2px solid blue;
+}

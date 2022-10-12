@@ -1,0 +1,35 @@
+.clearfix::after{
+    display: block; content: ''; clear: both;
+}
+
+fieldset{
+    width: 400px;
+}
+
+label{
+    line-height: 110px;
+}
+
+.img{
+    height: 100px;
+    float: right;
+    display: none;
+}
+
+.checkbox{
+    display: inline-block;
+    width: 15px; height: 15px;
+    border: 2px solid grey;
+}
+
+.checknone{
+    display: none;
+}
+
+.checknone:checked+.checkbox{
+    background-color: black;
+}
+
+.checknone:checked+.checkbox+.img{
+    display: block;
+}

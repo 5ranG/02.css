@@ -1,0 +1,29 @@
+p{
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+span{
+    background-color: dodgerblue;
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+    20%{
+        background-color: aqua;
+    }
+    40%{
+        background-color: burlywood;
+    }
+    60%{
+        background-color: chartreuse;
+    }
+    80%{
+        background-color: palevioletred;
+    }
+    100%{
+        background-color: darkorange;
+    }
+}

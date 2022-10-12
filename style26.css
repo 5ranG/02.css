@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    margin-bottom: 10px;
+    
+    transition-property: width, background-color;
+}
+
+div:nth-child(1){
+    transition-duration: 0.5s;
+}
+
+div:nth-child(2){
+    transition-duration: 2s, 1s;
+}
+
+div:nth-child(3){
+    transition-duration: 5s, 2.5s;
+}
+
+div:hover{
+    width: 300px;
+    background-color: blue;
+}

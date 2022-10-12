@@ -1,0 +1,45 @@
+*, html, body { margin:0; padding:0;}
+
+div:nth-child(1){
+    background-color: skyblue;
+}
+
+#id1{
+    position: relative; top: 20px; left: 40%;
+    width: 200px; height: 50px;
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+
+#id1>span{
+    position: relative; top:11px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+span:nth-child(2){
+    position: relative; top: 40px; left: 50%;
+    font-size: 10px;
+}
+
+
+#id2{
+    position: fixed; left: 40%;
+    width: 200px; height: 200px;
+    background-image: url(image/%EB%B9%88%EB%B8%94.jpg);
+    background-size: contain;
+    background-position: center;
+    z-index: 1;
+}
+
+#id3{
+    position: relative;
+    color: white;
+    font-size: 10px;
+    z-index: 2;
+}
+
+/*
+    z-index는 position (relative, absolute, fixed)속성이 적용된 요소에서만 작동
+    number 배치 순서를 결정. 숫자가 낮을 수록 뒤에 배치. 높을수록 앞에 나옴.
+*/

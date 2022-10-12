@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: myAnimation/*애니메이션네임*/ 5s infinite;
+    
+    animation-direction: alternate;
+    /*
+    
+    normal: 정해진 순서로 진행
+    reverse: 반대 순서로 진행
+    alternate: 정해진 순서로 갓다가 반대 순서로 진행
+    alternate-reverse: 반대 순서로 갔다가 정해진 순서로 진행
+    
+    */
+
+}
+
+
+@keyframes myAnimation{
+    0% {left: 0px; background-color: red;}
+    25% {left: 300px; background-color: blue;}
+    50% {top: 300px; background-color: orange;}
+    75% {top: 300px; left: 0px; background-color: aqua;}
+    100% {top: 0px; left: 0px; background-color: fuchsial;}
+}

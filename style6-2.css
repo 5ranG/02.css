@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;    
+    border-top: 3px solid black;
+}
+
+td{
+    border-bottom: 1px solid gray;
+    /*Q. 중복되지 않기 위해 table과 td로 나누어 선을 주었는데 한번에 할 수 있는 방법?*/
+    padding: 7px 10px;
+}
+
+#id1{
+    text-align: center;
+}
+
+td:nth-child(2){
+    width: 100px;
+}
+
+td:nth-child(3){
+    text-align: left;  
+    width: 400px;
+}
+
+tr:nth-child(1){
+    background-color:aliceblue;
+    text-align: center; 
+    font-weight: bold;
+}
+
+.class1{
+    color: red;
+}
+
+.class2{
+    color: skyblue;
+}
+
+.class3{
+    color: green;
+}
+
+.class4{
+    color: yellow;
+}
+
+.class5{
+    color: orange;
+}
+
+/*table>tbody>tr>3th*/
+/*클래스를 줘서 텍스트 글씨 적용하면 편함*/

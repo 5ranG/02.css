@@ -1,0 +1,21 @@
+
+.container{
+    width: 350px;
+    border: 2px solid red;
+    background-color: aquamarine;
+}
+
+.container .box{
+    width: 80px;
+    height: 40px;
+    border: 2px solid blue;
+    background-color: salmon;
+}
+
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+    
+    /*html의 내용과 동일 <div style="clear: both"></div>*/
+}

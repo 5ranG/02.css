@@ -1,0 +1,37 @@
+
+.layout{
+    height: 310px;
+}
+
+.menu{
+    width: 300px;
+    height:40px;
+    border: 2px solid red;
+    background-color: burlywood;
+}
+
+.main .left_menu{
+    float: left;
+    width: 50px;
+    height: 254px;
+    border: 2px solid red;
+    background-color: aquamarine;
+}
+
+.main .content{
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.main .content .article{
+    height: 200px;
+    border: 2px solid blue;
+    background-color: blueviolet;
+}
+
+.main .content .comment{
+    height: 50px;
+    border: 2px solid green;
+    background-color: coral;
+}

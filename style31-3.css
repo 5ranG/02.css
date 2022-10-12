@@ -1,0 +1,46 @@
+*{
+    list-style: none;
+    margin: 0px; padding: 0px; box-sizing: border-box;
+}
+
+/*test1*/
+
+#test1{
+    position: absolute; top: 10px; left: 10px;
+    width: 50px; height: 50px;
+    background-color: aqua;
+    animation: t1 linear 3s infinite;
+}
+
+@keyframes t1{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(359deg);}
+}
+
+
+/*test2*/
+
+#test2{
+    position: absolute; top: 0px; left: 100px;
+    width: 50px; height: 50px;
+    background-color: aquamarine;
+    animation: t2 3s infinite;
+}
+
+@keyframes t2{
+    0% {
+        top:0px; left:100px;
+    }
+    25% {
+        top:50px; left:100px;
+    }
+    50% {
+        top:50px; left:150px;
+    }
+    75% {
+        top:100px; left:150px;
+    }
+    100% {
+        top:100px; left:200px;
+    }
+}

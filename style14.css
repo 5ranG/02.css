@@ -1,0 +1,20 @@
+
+img{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid red;
+    
+    float:right;
+    /*만약에 부모가 있을 경우 그 부모의 속성을 따라간다면
+    inherit 를 사용하면 됩니다
+    float 속성을 안 쓸때는 none
+    
+    div에 float 속성을 써서 레이아웃용으로도 잘 씀*/
+}
+
+
+
+.float_container{
+    width: 500px;
+    border: 2px solid blue;
+}

@@ -1,0 +1,43 @@
+#id1{
+    width: 50px;
+    height:50px;
+    background-color: aqua;
+    display: inline; /*인라인과 스판이 비슷한 속성(인풋, 스판 인라인속성)*/
+}
+
+#id2{
+    width: 50px;
+    height: 50px;
+    background-color: mediumaquamarine;
+    display: none; /*히든이랑 다르게 아예 없애버림*/
+}
+
+#id3{
+    width: 50px;
+    height: 50px;
+    background-color:black;
+    display: block; /*가로 배치 불가능(div 테이블속성)*/
+}
+
+
+span{
+    border: 1px solid red;
+    /*가로배치 가능. 크기조절 불가능*/
+}
+
+
+/*
+Display 속성
+
+none: 보이지 않음 .공간차지 X
+
+block: 가로배치X. 크기조절 가능
+> 가로길이가 기본적으로 100%
+
+inline: 가로배치O. 크기조절X
+>span태그, b태그, I태그
+
+inline-block: 가로배치O. 크기조절 O
+*/
+
+hover, none

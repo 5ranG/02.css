@@ -1,0 +1,45 @@
+
+
+#id0 {
+    width: 100%;
+    height: 300px;
+    position: relative; top: 10px; left: 10px;
+}
+
+#id1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: absolute; top: 10px; left: 10px;
+}
+
+#id2{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    position: absolute; top: 110px; left: 10px;
+}
+
+#id00 {
+    width: 200px;
+    height: 200px;
+    position: relative; top: 110px; left: 110px;
+}
+
+#id3{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute; top: 0px; left: 0px;
+}
+
+#id4{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute; top: 100px; left: 0px;
+}
+
+
+
+/*absolute는... 상속받아야하는 애라 위에 무조건 relatice가 잇어야한다*/

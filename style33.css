@@ -1,0 +1,74 @@
+
+.box{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.original{
+    margin:30px;
+    border: 1px dashed #cecfd5;
+    background-color: #eaeaed;
+    flex: left;
+}
+
+.child{
+    background-color: #2db34a;
+        cursor: pointer;
+}
+
+.translate{
+    transform: translate(10px, 50px);
+}
+
+.scale{
+    transform: scale(.75);
+}
+
+.skew{
+    transform: skew(5deg, -20deg);
+}
+
+.rotate{
+    transform: rotate(70deg);
+}
+
+.complex{
+    transform: scale(.5) rotate(20deg);
+}
+
+
+/*Aniamtion Effect*/
+
+.translate:hover{
+    transition: transform 1s linear;
+    transform: translate(0px, 0px);
+}
+
+.scale:hover{
+    transition: transform 1s linear;
+    transform: scale(1);
+}
+
+.skew:hover{
+    transition: transform 1s linear;
+    transform: skew(0,0);
+}
+
+.rotate:hover{
+    transition: transform 1s linear;
+    transform: rotate(0);
+}
+
+.complex:hover{
+    transition: transform 1s linear;
+    transform: scale(1) rotate(0);
+}
+
+
+
+
+

@@ -1,0 +1,9 @@
+*{
+    color: aqua;
+}
+
+@media not all and (min-width:768px) and (max-width:1024px){
+    div{
+        color: red;
+    }
+}

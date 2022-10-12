@@ -1,0 +1,44 @@
+div{
+    width: 100px;
+    height: 100px;
+    
+    background: red;
+    
+    /*
+    transition: all 1s;
+    아래의 꺼 생략해서 한번에 적는법
+    */
+    
+    transition-delay: ; /*트랜지션의 지연*/
+    transition-duration: 3s; /*트랜지션의 기간, 필수적으로 지정. 지정안할경우 0s*/
+    transition-property: all; /*트랜지션의 속성, 지정된것만 바뀌게함*/
+    transition-timing-function: ; /*트랜지션의 시기*/
+    /*
+    
+    ease: 기본값. 천천히 시작해서 빠르게 진행하고 천천히 끝남. 약강약. (0.25,0.1,0.25,1)
+    linear: 처음과 끝이 동일한 속도로 진행 (0,0,1,1)
+    ease-in: 천천히 시작
+    ease-out: 천천히 끝
+    cubic-bezier(n,n,n,n) 직접 값을 지정. 0~1까지
+    
+    */
+    
+    
+/*
+
+animation: move 5s infinite
+
+// name durationo timing-function delay iteration-count direction fill-mode play-state
+
+
+*/
+
+    
+    
+    
+}
+
+div:hover{
+    border-radius: 50%;
+    background: blue;
+}

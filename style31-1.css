@@ -1,0 +1,26 @@
+*{
+    list-style: none;
+    margin: 0px; padding: 0px; box-sizing: border-box;
+}
+
+.mainmenu{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.mainmenu>li{
+    height: 25px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.submenu{
+    color: blue;
+}
+
+.mainmenu>li:hover{
+    height: 65px;
+}
+ 

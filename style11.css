@@ -1,0 +1,26 @@
+.box-container{
+    width: 350px;
+    border: 2px solid #e91bf5;
+}
+
+.box-container div{
+    padding: 10px;
+    border: 1px solid green;
+    background-color: #e3ffe0;
+}
+
+#box1 {position: static; top: 20px; left: 30px;}
+/*static 은 기본값. 위치 정할 수 없음. 상속됐다? 안에 있어서 쏙 들어감*/
+
+#box2 {position: relative; top: 20px; left: 30px;}
+/*<원래있던 위치>를 기준으로 좌표 설정.*/
+
+#box3 {position: absolute; top: 20px; right: 30px;}
+/*절대값. 무조건 저 위치. 창 크기 수정해두!!*/
+
+#box4 {position: fixed; top: 20px; right: 30px;}
+/*상대값. 스크롤 상관없이 항상 화면 그곳에 존재. absolute가 사라져도 얜 있음*/
+
+
+/*위치값이 top left right bottom 기준
+absolute랑 fixed 는 블럭 특성인 100% 가로길이 이거 없앰!!! 그래서 크기 쪼꼬매짐*/

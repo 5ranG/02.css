@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+		div:nth-child(1){
+			width: 100px;
+			height: 100px;
+
+
+			border-left-color: transparent;
+			border-right-color: transparent;
+			border-top-style: dotted;
+			border-left: dotted;
+			border-right-style: dotted;
+			border-bottom: dotted;
+		}
+
+		div:nth-child(2){
+			font-size: 10px;
+			font-weight: bold;
+			font-style: italic;
+			font-family: "궁서"
+		}
+
+		div:nth-child(3){
+			font-size: 20px;
+			font-weight: lighter;
+			font-style: normal;
+			font-family: "바탕체"
+		}
+
+		div:nth-child(4){
+			font-size: 30px;
+			font-weight: 400;
+			font-style: oblique;
+			/*이탤릭은 기본 제공해주는것. 오블리큐는 강제로 꺾는것*/
+			font-family: "MV Boli"
+		}
+
+		div:nth-child(5){
+			border: 1px solid black;
+			word-break: break-all;
+			font-family: 'Manrope', sans-serif;
+			/*[https://fonts.google.com/]*/
+		}
+
+		#aaa{color: aqua}
+	</style>
+</head>
+<body>
+    <div>
+    </div>
+    
+    <div> sample1 </div>
+    <div> sample2 </div>
+    <div> sample3 </div>
+    <div> sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4s<span id="aaa">ample4sample4s</span><!--글자전용 div 라 생각하면 편함-->ample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4sample4
+     </div>
+
+</body>
+</html>
